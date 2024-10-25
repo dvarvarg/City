@@ -1,0 +1,226 @@
+[
+    {
+        "annotations": {
+            "DMS": {
+                "lat": "55\u00b0 37' 32.08080'' N",
+                "lng": "37\u00b0 36' 23.00976'' E"
+            },
+            "MGRS": "37UDB1224865289",
+            "Maidenhead": "KO85tp20sd",
+            "Mercator": {
+                "x": 4186324.363,
+                "y": 7448942.147
+            },
+            "OSM": {
+                "edit_url": "https://www.openstreetmap.org/edit?relation=102269#map=17/55.62558/37.60639",
+                "note_url": "https://www.openstreetmap.org/note/new#map=17/55.62558/37.60639&layers=N",
+                "url": "https://www.openstreetmap.org/?mlat=55.62558&mlon=37.60639#map=17/55.62558/37.60639"
+            },
+            "UN_M49": {
+                "regions": {
+                    "EASTERN_EUROPE": "151",
+                    "EUROPE": "150",
+                    "RU": "643",
+                    "WORLD": "001"
+                },
+                "statistical_groupings": [
+                    "MEDC"
+                ]
+            },
+            "callingcode": 7,
+            "currency": {
+                "alternate_symbols": [
+                    "\u0440\u0443\u0431.",
+                    "\u0440."
+                ],
+                "decimal_mark": ",",
+                "format": "%n %u",
+                "html_entity": "&#x20BD;",
+                "iso_code": "RUB",
+                "iso_numeric": "643",
+                "name": "Russian Ruble",
+                "smallest_denomination": 1,
+                "subunit": "Kopeck",
+                "subunit_to_unit": 100,
+                "symbol": "\u20bd",
+                "symbol_first": 0,
+                "thousands_separator": "."
+            },
+            "flag": "\ud83c\uddf7\ud83c\uddfa",
+            "geohash": "ucfsry24krmcxvc67n3g",
+            "qibla": 176.33,
+            "roadinfo": {
+                "drive_on": "right",
+                "speed_in": "km/h"
+            },
+            "sun": {
+                "rise": {
+                    "apparent": 1729830120,
+                    "astronomical": 1729822680,
+                    "civil": 1729827840,
+                    "nautical": 1729825260
+                },
+                "set": {
+                    "apparent": 1729865040,
+                    "astronomical": 1729872480,
+                    "civil": 1729867380,
+                    "nautical": 1729869900
+                }
+            },
+            "timezone": {
+                "name": "Europe/Moscow",
+                "now_in_dst": 0,
+                "offset_sec": 10800,
+                "offset_string": "+0300",
+                "short_name": "MSK"
+            },
+            "what3words": {
+                "words": "giving.phones.sprayed"
+            },
+            "wikidata": "Q649"
+        },
+        "bounds": {
+            "northeast": {
+                "lat": 56.0212238,
+                "lng": 37.9674277
+            },
+            "southwest": {
+                "lat": 55.1421745,
+                "lng": 36.8031012
+            }
+        },
+        "components": {
+            "ISO_3166-1_alpha-2": "RU",
+            "ISO_3166-1_alpha-3": "RUS",
+            "ISO_3166-2": [
+                "RU-MOW"
+            ],
+            "_category": "place",
+            "_type": "state",
+            "continent": "Europe",
+            "country": "Russia",
+            "country_code": "ru",
+            "region": "Central Federal District",
+            "state": "Moscow"
+        },
+        "confidence": 1,
+        "formatted": "Moscow, Russia",
+        "geometry": {
+            "lat": 55.625578,
+            "lng": 37.6063916
+        }
+    },
+    {
+        "annotations": {
+            "DMS": {
+                "lat": "55\u00b0 45' 1.94832'' N",
+                "lng": "37\u00b0 37' 2.92152'' E"
+            },
+            "MGRS": "37UDB1322379181",
+            "Maidenhead": "KO85ts40cd",
+            "Mercator": {
+                "x": 4187558.518,
+                "y": 7473567.253
+            },
+            "OSM": {
+                "edit_url": "https://www.openstreetmap.org/edit?relation=2555133#map=17/55.75054/37.61748",
+                "note_url": "https://www.openstreetmap.org/note/new#map=17/55.75054/37.61748&layers=N",
+                "url": "https://www.openstreetmap.org/?mlat=55.75054&mlon=37.61748#map=17/55.75054/37.61748"
+            },
+            "UN_M49": {
+                "regions": {
+                    "EASTERN_EUROPE": "151",
+                    "EUROPE": "150",
+                    "RU": "643",
+                    "WORLD": "001"
+                },
+                "statistical_groupings": [
+                    "MEDC"
+                ]
+            },
+            "callingcode": 7,
+            "currency": {
+                "alternate_symbols": [
+                    "\u0440\u0443\u0431.",
+                    "\u0440."
+                ],
+                "decimal_mark": ",",
+                "format": "%n %u",
+                "html_entity": "&#x20BD;",
+                "iso_code": "RUB",
+                "iso_numeric": "643",
+                "name": "Russian Ruble",
+                "smallest_denomination": 1,
+                "subunit": "Kopeck",
+                "subunit_to_unit": 100,
+                "symbol": "\u20bd",
+                "symbol_first": 0,
+                "thousands_separator": "."
+            },
+            "flag": "\ud83c\uddf7\ud83c\uddfa",
+            "geohash": "ucfv0j04qy0u0qefvj7d",
+            "qibla": 176.36,
+            "roadinfo": {
+                "drive_on": "right",
+                "speed_in": "km/h"
+            },
+            "sun": {
+                "rise": {
+                    "apparent": 1729830120,
+                    "astronomical": 1729822680,
+                    "civil": 1729827840,
+                    "nautical": 1729825260
+                },
+                "set": {
+                    "apparent": 1729865040,
+                    "astronomical": 1729872480,
+                    "civil": 1729867320,
+                    "nautical": 1729869900
+                }
+            },
+            "timezone": {
+                "name": "Europe/Moscow",
+                "now_in_dst": 0,
+                "offset_sec": 10800,
+                "offset_string": "+0300",
+                "short_name": "MSK"
+            },
+            "what3words": {
+                "words": "treating.custom.openings"
+            },
+            "wikidata": "Q649"
+        },
+        "bounds": {
+            "northeast": {
+                "lat": 55.9577717,
+                "lng": 37.9674277
+            },
+            "southwest": {
+                "lat": 55.516684,
+                "lng": 37.290502
+            }
+        },
+        "components": {
+            "ISO_3166-1_alpha-2": "RU",
+            "ISO_3166-1_alpha-3": "RUS",
+            "ISO_3166-2": [
+                "RU-MOW"
+            ],
+            "_category": "place",
+            "_normalized_city": "Moscow",
+            "_type": "city",
+            "city": "Moscow",
+            "continent": "Europe",
+            "country": "Russia",
+            "country_code": "ru",
+            "region": "Central Federal District",
+            "state": "Moscow"
+        },
+        "confidence": 2,
+        "formatted": "Moscow, Russia",
+        "geometry": {
+            "lat": 55.7505412,
+            "lng": 37.6174782
+        }
+    }
+]
