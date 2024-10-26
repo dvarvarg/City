@@ -43,24 +43,35 @@ def show_map():
     if map_url:
         webbrowser.open(map_url)
 
+def clear_entry():
+    entry.delete(0,END)
+    label.config(text='')
+
+
 key = '31889b09103942fca06007cc1ed29fe1'
 map_url=''
 
 window=Tk()
 window.title('Координаты городов')
-window.geometry('320x160')
+window.geometry('320x220')
 
 entry=Entry()
-entry.pack()
+entry.pack(pady=5)
 entry.bind('<Return>', show_coordinates)
 
 button=Button(window, text='Поиск координат', command=show_coordinates)
-button.pack()
+button.pack(pady=5)
 
 label=Label(text='Введите город и нажмите на кнопку')
 label.pack()
 
-map_button=Button(window, text='Показать карту', command=show_map)
-map_button.pack()
+frame=Frame(window)
+frame.pack(side=BOTTOM)
+
+map_button=Button(frame, text='Показать карту', command=show_map)
+map_button.pack(pady=5)
+
+clear_button=Button(frame, text='Очистить', command=clear_entry)
+clear_button.pack(pady=5)
 
 window.mainloop()
