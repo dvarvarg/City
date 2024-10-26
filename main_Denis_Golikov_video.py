@@ -11,17 +11,18 @@ def get_coordinates(city,key):
             lat=round(results[0]['geometry']['lat'],2)
             lon=round(results[0]['geometry']['lng'],2)
             country=results[0]['components']['country']
+            local_currency = results[0]['annotations']['currency']['name']
             osm_url=f'https://www.openstreetmap.org/?mlat={lat}&mlon={lon}'
 
             if 'state' in results[0]['components']:
                 region = results[0]['components']['state']
                 return {
-                    'coordinates': f'Широта: {lat}, Долгота: {lon}\nСтрана: {country}.\nРегион: {region}',
+                    'coordinates': f'Широта: {lat}, Долгота: {lon}\nСтрана: {country}.\nРегион: {region}\nМестная валюта: {local_currency}',
                     'map_url': osm_url
                         }
             else:
                 return {
-                    'coordinates': f'Широта: {lat}, Долгота: {lon}\nСтрана: {country}.',
+                    'coordinates': f'Широта: {lat}, Долгота: {lon}\nСтрана: {country}.\nМестная валюта: {local_currency}',
                     'map_url': osm_url
                         }
         else:
