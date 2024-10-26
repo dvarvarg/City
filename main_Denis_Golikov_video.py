@@ -1,6 +1,7 @@
 from opencage.geocoder import OpenCageGeocode
 from tkinter import *
 import webbrowser
+from tkinter import messagebox as mb
 
 
 def get_coordinates(city,key):
@@ -26,7 +27,7 @@ def get_coordinates(city,key):
                     'map_url': osm_url
                         }
         else:
-            return 'Город не найден'
+            mb.showerror('Ошибка',f'Город "{city}" не найден')
     except Exception as e:
         return f'Возникла ошибка {e}'
 
